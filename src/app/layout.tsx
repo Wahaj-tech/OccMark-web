@@ -37,9 +37,7 @@ export default function RootLayout({
       lang="en"
       className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
-        <AppShell>{children}</AppShell>
-      </body>
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }
